@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXSTEG Fit Hub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo"><img src="logo.png" class="logo" alt="Logo"></div>
+    
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+  
+    <nav id="nav-menu">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="trainers.html">Trainers</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="success.html">Success Story</a>
+    </nav>
+  
+    <a href="https://wa.me/919876543210" class="cta-header-btn">Join Us Now<span>→</span></a>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>NEVER FORGET<br>YOUR FIRST<br>TIME</h1>
+      <div class="btn-row">
+        <a href="https://wa.me/919876543210"><button class="join-btn" >Join the hustle</button></a>
+        <a href="#" class="watch-link">
+          <img src="wacth.png" alt="Watch thumbnail">
+          Watch Our Fitness Journey
+        </a>
+      </div>
+    </div>
+
+    <!-- Purple Square -->
+    <div class="purple-box"></div>
+
+    <!-- Image Overlap -->
+    <img src="bodybuilder.png" alt="Bodybuilder" class="hero-img">
+  </section>
+  
+
+
+
+  <section class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <!-- Service Card -->
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-dumbbell"></i></div>
+        <h3>Personal Training</h3>
+        <hr>
+        <p>Get customized workout programs tailored to your fitness goals with expert personal trainers.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-users"></i></div>
+        <h3>Group Fitness Classes</h3>
+        <hr>
+        <p>Join energetic, instructor-led group sessions that keep you motivated and moving.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-heartbeat"></i></div>
+        <h3>Cardio & Strength Equipments</h3>
+        <hr>
+        <p>Access state-of-the-art cardio and strength machines for a complete workout.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-apple-alt"></i></div>
+        <h3>Nutritional Counselling</h3>
+        <hr>
+        <p>Receive professional dietary guidance to support your health and fitness journey.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-lock"></i></div>
+        <h3>Locker Room Facilities</h3>
+        <hr>
+        <p>Enjoy clean, secure locker rooms with all essential amenities for your convenience.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-snowflake"></i></div>
+        <h3>Ice Bath</h3>
+        <hr>
+        <p>Relax and recover in our warm, therapeutic jacuzzi after a tough session.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-hot-tub"></i></div>
+        <h3>Sauna Bath</h3>
+        <hr>
+        <p>Detox and unwind in our dry-heat sauna for post-workout rejuvenation.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-water"></i></div>
+        <h3>Jacuzzi</h3>
+        <hr>
+        <p>Refresh your body and skin with the soothing effects of our steam bath.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon"><i class="fas fa-spa"></i></div>
+        <h3>Steam Bath</h3>
+        <hr>
+        <p>Boost recovery and reduce muscle soreness with invigorating ice bath therapy.</p>
+      </div> 
+    </div>
+  </section>
+ <!-- About Section -->
+
+
+<section class="about-section">
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>About Us</h1>
+    <p>
+      BZ Fitness Bodybuilding and Fitness Centre has been operating since 2016, bringing over seven years of expertise in health and fitness. Launched in Kuwait, it has quickly become one of the country’s fastest-growing fitness brands, dedicated to helping individuals stay fit using the most advanced training techniques.
+      <br><br>
+      In a short span, BZ Fitness has expanded to over six branches across Kuwait. Beyond offering top-tier bodybuilding and fitness services, the centre has diversified its operations—launching a fitness equipment manufacturing division and an e-commerce platform in 2022 to cater to growing customer demand.
+    </p>
+
+    <button class="cta-button">
+      Learn More <span class="arrow">➜</span>
+    </button>
+
+    
+    </div>
+  </div>
+</section>
+
+<style>
+.about-section {
+  position: relative;
+  background: url('./gym-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.about-section .content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #e0e0e0;
+}
+
+.cta-button {
+  background: linear-gradient(to right, #a020f0, #6b00b3);
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0 5px 0 #000;
+  transition: 0.3s ease;
+}
+
+.cta-button .arrow {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(160, 32, 240, 0.4);
+}
+
+.videos {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-thumb {
+  position: relative;
+  width: 180px;
+  height: 110px;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.video-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #6b00b3;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 🔽 Responsive Media Queries */
+@media (max-width: 768px) {
+  .about-section h1 {
+    font-size: 32px;
+  }
+
+  .about-section p {
+    font-size: 15px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .videos {
+    gap: 16px;
+  }
+
+  .video-thumb {
+    width: 45%;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 40px 16px;
+  }
+
+  .about-section h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .about-section p {
+    text-align: center;
+  }
+
+  .cta-button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .videos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-thumb {
+    width: 100%;
+    height: 160px;
+  }
+}
+</style>
+
+
+
+  <section class="bar-section">
+    <div class="bar-left">
+      <h2 style="text-align: center;">Our Trainers</h2>
+<p style="text-align: center;">
+  Our team of dedicated professionals are here to help you thrive. <br />
+  Training. Nutrition. Motivation — all personalized to your goals.
+</p>
+<div style="text-align: center;">
+  <a href="trainers.html" class="view-btn">View Trainers</a>
+</div>
+
+
+    </div>
+  
+    <div class="bar-right">
+      <div class="trainer-card">
+        <div class="trainer-image">
+          <img src="./trainer1.png" alt="Sailesh" />
+        </div>
+        <div class="trainer-info">
+          <h3>Sailesh</h3>
+          <span>Trainer</span>
+        </div>
+      </div>
+  
+      <div class="trainer-card">
+        <div class="trainer-image">
+          <img src="./trainer3.png" alt="Nathaniel" />
+        </div>
+        <div class="trainer-info">
+          <h3>Nasar</h3>
+          <span>Trainer</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+    .bar-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 50px 50px;
+      background-color:#5C00C9;
+      color: #fff;
+      border-radius: 40px;
+      
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    .bar-left,
+    .bar-right {
+      flex: 1 1 100%;
+      margin-bottom: 30px;
+    }
+  
+    .bar-left {
+      text-align: center;
+    }
+  
+    .bar-left h2 {
+      color: #fff;
+      margin-bottom: 15px;
+      font-size: 28px;
+    }
+  
+    .bar-left p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+  
+    .view-btn {
+      display: inline-block;
+      padding: 10px 24px;
+      border: 2px solid #fff;
+      background: none;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+  
+    .view-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  
+    .bar-right {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  
+    .trainer-card {
+      background-color: #1a1a1a;
+      border-radius: 28px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+  
+    .trainer-card:hover {
+      transform: scale(1.03);
+    }
+  
+    .trainer-image {
+  width: 100%;
+  height: 400px; /* Or match your image's real height */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.trainer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+  
+    .trainer-info {
+      background-color: #1a1a1a;
+      padding: 16px;
+    }
+  
+    .trainer-info h3 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  
+    .trainer-info span {
+      display: block;
+      margin-top: 5px;
+      color: #888;
+      font-size: 14px;
+    }
+  
+    /* Responsive */
+    @media (min-width: 768px) {
+      .bar-left,
+      .bar-right {
+        flex: 1 1 48%;
+      }
+  
+      .bar-left {
+        text-align: left;
+      }
+  
+      .bar-right {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+  
+  
+
+
+  <section class="pricing-section">
+    <h2>Our Membership Options</h2>
+  
+    <div class="toggle-btns">
+     <!--- <button class="toggle active" id="btn-without">Without Trainer</button>-->
+      <button class="toggle" id="btn-with">With Trainer</button>
+    </div>
+    
+  
+    <div class="pricing-cards">
+      <div class="card" 
+           
+           data-title-with="1 Month"
+           data-text-with="Gym access with personal trainer for a day." 
+           data-price-with="30.000 AED">
+        <h3> 1 Month</h3>
+        <p>Basic gym access for a Month.</p>
+        <h2 class="price">30.000 KWD</h2>
+        <hr><br>
+        <ul>
+          <li><i class="fas fa-check"></i> Full equipment access</li>
+          <li><i class="fas fa-check"></i> Locker room</li>
+          <li><i class="fas fa-check"></i> Free water</li>
+        </ul>
+        <a href="https://wa.me/+6298988772233"><button class="btn-purple">Join Now</button></a>
+      </div>
+  
+      <div class="card" 
+           
+           data-title-with="3 Months "
+           data-text-with="3 Months gym pass with trainer." 
+           data-price-with="60.000 AED">
+        <h3>3 Months</h3>
+        <p>3 Months gym pass.</p>
+        <h2 class="price">60.000 KWD</h2>
+        <hr><br>
+        <ul>
+          <li><i class="fas fa-check"></i> Unlimited access</li>
+          <li><i class="fas fa-check"></i> Nutritional guidance</li>
+          <li><i class="fas fa-check"></i> Free sauna</li>
+        </ul>
+        <a href="https://wa.me/+6298988772233"><button class="btn-purple">Join Now</button></a>
+      </div>
+  
+      <div class="card" 
+          
+           data-title-with="6 Months"
+           data-text-with="Monthly membership with personal training." 
+           data-price-with="80.000 AED">
+        <h3>6 Months</h3>
+        <p>Monthly gym membership.</p>
+        <h2 class="price">80.000 KWD</h2>
+        <hr><br>
+        <ul>
+          <li><i class="fas fa-check"></i> Personalized workout plan</li>
+          <li><i class="fas fa-check"></i> Weekly trainer session</li>
+          <li><i class="fas fa-check"></i> 24/7 support</li>
+        </ul>
+        <a href="https://wa.me/62919876543210"><button class="btn-purple">Join Now</button></a>
+      </div>
+
+ <div class="card" 
+          
+           data-title-with="1 Year"
+           data-text-with="  1 Year membership with personal training." 
+           data-price-with="120.000 AED">
+        <h3> 1 Year </h3>
+        <p> 1 year gym membership.</p>
+        <h2 class="price"> 120.000 KWD</h2>
+        <hr><br>
+        <ul>
+          <li><i class="fas fa-check"></i> Personalized workout plan</li>
+          <li><i class="fas fa-check"></i> Weekly trainer session</li>
+          <li><i class="fas fa-check"></i> 24/7 support</li>
+        </ul>
+        <a href="https://wa.me/+6298988772233"><button class="btn-purple">Join Now</button></a>
+      </div>
+        
+    </div>
+  </section>
+
+<!--=============================================================== Member Success Section =-->
+<section class="success-section">
+    <div class="triangle-right"></div>
+    <div class="success-content">
+      <h2>Member’s Success Story</h2>
+      <p>We celebrate the incredible achievements of our members. Their dedication, persistence, and progress inspire us daily.</p>
+      
+      <div class="success-cards">
+        <div class="success-card">
+          <div class="success-card-1">
+                <h3>Derek</h3>
+                <h4>⭐️⭐️⭐️⭐️⭐️</h4>
+                <h5><span>"</span>With the help of Nexsteg, I was able to overcome my fitness plateau and achieve my goals.</h5>
+
+          </div>
+        </div>
+        <div class="success-card">
+            <div class="success-card-2">
+                  <h3>Anthony</h3>
+                  <h4>⭐️⭐️⭐️⭐️⭐️</h4>
+                  <h5><span>"</span>With the support of Nexsteg, I transformed my body and mind, gaining confidence and strength I never knew I had.</h5>
+
+            </div>
+        </div>
+        <div class="success-card">
+            <div class="success-card-3">
+                  <h3>Jhon</h3>
+                  <h4>⭐️⭐️⭐️⭐️⭐️</h4>
+                  <h5><span>"</span> With the help of Nexsteg, I was able to overcome my fitness plateau and achieve my goals.</h5>
+
+            </div>
+        </div>
+        <div class="success-card">
+            <div class="success-card-4">
+                  <h3>Ezekiel</h3>
+                  <h4>⭐️⭐️⭐️⭐️⭐️</h4>
+                  <h5><span>"</span>Transformed from feeling drained to energized through Nexsteg’s personalized workouts and nutrition</h5>
+              
+            </div>
+          </div>
+    
+      </div>
+    </div>
+  </section> 
+<!--=============================================================== Member Success Section =-->
+<section class="contact-section">
+  <h2>It's the right<br><span class="highlight">moment to Join Us</span></h2>
+
+  <div class="contact-container">
+    <!-- Left Slide - Map -->
+    <div class="contact-left">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.443203711182!2d48.112627675308886!3d29.138972875391953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf09004bc502ab%3A0x2317ca13761ed9fe!2sNEXSTEG%20GYM!5e1!3m2!1sen!2sin!4v1753511324296!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <!-- Right Slide - Form + Info -->
+    <div class="contact-right">
+      <form class="contact-form" onsubmit="sendWhatsAppMessage(event)">
+  <h3 style="color:black;">Contact Us</h3>
+  <input type="text" id="name" placeholder="Your Name" required>
+  <input type="number" id="number" placeholder="Your Phone Number" required>
+  <textarea id="workoutroutine" placeholder="Whats your Workout Routine" rows="5" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+ <script>
+function sendWhatsAppMessage(event) {
+  event.preventDefault(); // Prevent form submission
+
+  // Get form values
+  const name = document.getElementById("name").value.trim();
+  const number = document.getElementById("number").value.trim();
+  const workoutroutine = document.getElementById("workoutroutine").value.trim();
+
+  // Basic validation
+  if (!name || !number || !workoutroutine) {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  // Format WhatsApp message
+  const text = `Hello, I am *${name}*.\nContact Number: ${number}\nWorkout Routine: ${workoutroutine}`;
+  const phoneNumber = "919656778508";
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+
+  // Open WhatsApp
+  window.open(url, "_blank");
+}
+</script>
+
+
+      <div class="contact-info">
+       <p style="color: black;"><i class="fas fa-envelope"></i> info@nexsteg.com</p>
+<p style="color: black;"><i class="fas fa-phone"></i> +6298988772233</p>
+<p style="color: black;"><i class="fas fa-map-marker-alt"></i> Block-1 Street 127, Mahboula, KUWAIT</p>
+
+      </div>
+
+      <div class="social-icons">
+        
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>     
+       
+      </div>
+    </div>
+  </div>
+</section>
+<footer>© 2025, All Right Reserved.
+  <p style="margin: 0; font-size: 15px;">
+    Crafted & Developed by 
+    <a href="https://lagger.in/" target="_blank" style="color: #00bfff; text-decoration: none; font-weight: 500;">
+      Lagger Technologies
+    </a>
+  </p>
+</footer>
+ <style>
+  .contact-section {
+  padding: 60px 20px;
+  background: #000000;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.contact-section .highlight {
+  color:#3021ff;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1 1 400px;
+  min-height: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.contact-left iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-right {
+  background: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 12px;
+  background:#3021ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background:#3021ff;
+}
+
+.contact-info {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  color: #e63946;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #6a040f;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+ </style>
+
+
+
+  <script>
+
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav-menu');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+    const btnWithout = document.getElementById("btn-without");
+    const btnWith = document.getElementById("btn-with");
+    const cards = document.querySelectorAll(".pricing-cards .card");
+  
+    function updatePricing(type) {
+      // Toggle button color
+      btnWithout.classList.toggle("active", type === "without");
+      btnWith.classList.toggle("active", type === "with");
+  
+      // Update each card content
+      cards.forEach(card => {
+        const title = card.querySelector("h3");
+        const desc = card.querySelector("p");
+        const price = card.querySelector(".price");
+  
+        if (type === "with") {
+          title.textContent = card.getAttribute("data-title-with");
+          desc.textContent = card.getAttribute("data-text-with");
+          price.textContent = card.getAttribute("data-price-with");
+        } else {
+          title.textContent = card.getAttribute("data-title-without");
+          desc.textContent = card.getAttribute("data-text-without");
+          price.textContent = card.getAttribute("data-price-without");
+        }
+      });
+    }
+  
+    // Add event listeners
+    btnWithout.addEventListener("click", () => updatePricing("without"));
+    btnWith.addEventListener("click", () => updatePricing("with"));
+  </script>
+</body>
+</html>
+
+
+
+
